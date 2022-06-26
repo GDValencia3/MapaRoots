@@ -1,0 +1,323 @@
+/* Affects ALL Pages */
+body{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:white;
+}
+.body-text{
+    display:flex;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    border-spacing: 3px;
+    font-size:36px;
+    font-family:"Montserrat",sans-serif;
+    align-items:left;
+    justify-content:left;
+}
+p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    border-spacing: 3px;
+    font-size:24px;
+    font-family:"Montserrat",sans-serif;
+    align-items:left;
+    justify-content:left;
+}
+em {
+    font-weight: bolder;
+    font-style:italic;
+    font-stretch: expanded;
+
+}
+
+strong {
+    font-weight: bolder;
+    font-style: oblique;
+    font-stretch:ultra-expanded;
+    color:black;
+}
+
+hr {
+    border-top-color: teal;
+    border-bottom-color: rgba(128, 128, 128, 0.258);
+    border-width: 3px;
+}
+
+
+/* Navbar */
+.logo img{
+    align-items: left;
+    width:auto;
+    height:auto;
+    max-height:150px ;
+    max-width:250px ;
+}
+nav{
+    display:flex;
+    position:sticky;
+    justify-content:space-around;
+    align-items:center;
+    min-height: 14vh;
+    background-color:rgb(0, 0, 0);
+    font-family:"Montserrat",sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content:right;
+    width:30%;
+}
+.nav-links li {
+    list-style:none;
+    justify-content:right;
+    font-family:"Montserrat",sans-serif;
+}
+.heading{
+    color:white;
+    font-family: "Montserrat",sans-serif;
+    text-transform: none;
+    letter-spacing: 5px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: bold;
+    padding:14px 16px;
+}
+.nav-links a{
+    color:rgb(92, 238, 238);
+    font-family:"Montserrat",sans-serif;
+    text-decoration:solid;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    padding:14px 16px;
+}
+.nav-links li a:hover:not(.active){
+    text-decoration-color: yellow;
+}
+.nav-links li a.active{
+    text-decoration-color: purple;
+    text-decoration-line: none;
+}
+
+/* Headline Titles */
+h1 {
+    text-align: left; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    border-spacing: 2px;
+    font-size: 36px;
+    font-family:"Montserrat",sans-serif;
+    color:teal
+ }
+ h2 {
+    text-align:left;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+    font-size: 30px;
+    font-family:"Montserrat",sans-serif;
+    color: black;
+ }
+h3 {
+   text-align: left;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:navy;
+}
+
+
+/* Divs- Body*/
+.right {
+    font-size: 24px;
+    text-align:right;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+}
+.left{
+font-size: 24px;
+text-align:left;
+font-family: "Montserrat",sans-serif;
+font-weight: 300;
+}
+
+.center {
+    font-size: 24px;
+    text-align:center;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+}
+.adjust {
+    font-size: 24px;
+    color:maroon;
+    margin-left: 10%;
+    margin-right:10% ;
+    text-align:justify;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 333;
+}
+
+.space {
+display:inline-block;
+width:100%;
+height:50px;
+}
+
+
+/* Div- Image Formats */
+.rightimage img{
+    float:right;
+    border-radius: 15px;
+    width:50%;
+    height:auto;
+    max-height: 715px;
+    max-width: 680px;
+    
+}
+.leftimage img{
+    float: left;
+    width:50%;
+    height:auto;
+}
+.centerimage img{
+    float: center;
+    width:100%;
+    height:auto;
+}
+
+
+/* IDs */
+
+#rightHalf {
+    float: right;
+    width:50%;
+    right:0px;
+    height:100%;
+    position:absolute;
+}
+
+
+#leftHalf {
+    width:50%;
+    left:0px;
+    height:100%;
+    position:absolute;
+}
+
+
+/* Split Page: Container-Image */
+
+.container-row {
+    display:flex;
+}
+
+.container-row .logo {
+    flex:1; 
+} 
+
+.container-row .form_container {
+    flex:2;
+}
+
+/* List Styles */
+ol{
+    list-style-type:disc;
+    text-align:left;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 200;
+}
+
+/* Footer */
+
+  .sitefooterbar {
+    bottom: 0;
+    left:0;
+    right: 0;
+    clear:both;
+    padding: 5px;
+    min-height: 12vh;
+    width: 100vw;
+    color: black;
+    background-color:rgb(173, 213, 217);
+    border: 3px;
+    display:block;
+    align-items:center;
+  }
+ 
+  .content {
+    display:block;
+    padding:5px;
+    margin: 0px auto;
+    text-align:center;
+    font: 22px Georgia, "Times New Roman", Times, serif;
+    color:black;
+    }
+  .content img {
+    align-items: center;
+    width:auto;
+    height:auto;
+    max-height:120px ;
+    max-width:160px ;
+  }
+
+  .copyright {
+    font-family:'Times New Roman', Times, serif;
+    font-size: smaller;
+    font-weight:lighter;
+    font-style:initial;
+    font-stretch:condensed;
+    color:white;
+  }
+
+/* Translators */ 
+ .translate {
+     display:contents;
+     text-align: left;
+     position: sticky;
+     font-size: 30px;
+     font-family:"Montserrat",sans-serif;
+ }   
+ 
+ /* Contact Form */
+input[type=text], select, textarea {
+    font-size: larger;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    width: 100%; 
+    padding: 12px;  
+    border: 3px solid teal; 
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=submit] {
+    background-color: #c08e1b;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px 30px;
+    border: teal;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  
+  .form_container {
+    float:left;
+    width:48%;
+    height:auto;
+    border: 3px solid teal;
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+  }
