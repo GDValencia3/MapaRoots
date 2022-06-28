@@ -75,7 +75,7 @@ nav{
     justify-content:right;
     font-family:"Montserrat",sans-serif;
 }
-.heading{
+.heading {
     color:white;
     font-family: "Montserrat",sans-serif;
     text-transform: none;
@@ -84,6 +84,7 @@ nav{
     font-size: 34px;
     font-weight: bold;
     padding:14px 16px;
+    margin-right: 500px;
 }
 .nav-links a{
     color:rgb(92, 238, 238);
@@ -321,3 +322,7 @@ input[type=text], select, textarea {
     background-color: lightgoldenrodyellow;
     padding: 20px;
   }
+
+title {
+
+}
